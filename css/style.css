@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffe5ec;
+    color: #333;
+    line-height: 1.6;
+}
+
+h2 {
+    font-family: 'Caacupe One', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 0.8rem 1.5rem;
+    background-color: #b80228;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 45px;
+    width: auto;
+    display: block;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu p {
+    color: #ffd13f;
+    font-family: 'Caacupe One', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+main.container {
+    margin-top: 35px;
+    padding: 0 40px;
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 2.5rem;
+}
+
+.about-img img {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-card, 
+.built-card {
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.about-card {
+    flex: 1;
+}
+
+.about-card h2, 
+.built-card h2 {
+    color: #222;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #b80228;
+    padding-bottom: 8px;
+}
+
+.about-card p, 
+.built-card p {
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+}
+
+.about-card ul {
+    margin-left: 20px;
+}
+
+.tu-section {
+    margin-top: 15px;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background: #eee;
+    margin: 15px 0;
+}
+
+
+#what-i-built, 
+#how-i-built, 
+#reflection {
+    margin-top: 35px;
+}
+
+#reflection {
+    margin-bottom: 50px;
+}
+
+.sub-title {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.built-card ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.built-card li {
+    margin-bottom: 6px;
+}
+
+.analysis-box {
+    background-color: #f8fafc;
+    border-left: 4px solid #b80228;
+    padding: 15px 20px;
+    margin-top: 15px;
+    border-radius: 0 8px 8px 0;
+}
+
+.analysis-box code {
+    background: #e2e8f0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+}
